@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Java Course Registration</title>
+  <link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Java Course Registration</h2>
+    <form>
+      <label for="fullname"></label>
+      Full Name:<spam style="color: crimson;">*</spam>: <input type="text" name="nameId" required>
+      
+      <br>
+      
+      <label for="email"></label>
+      Email:<spam style="color: crimson;">*</spam>:<input type="email" id="email" name="email" required>
+      <br>
+
+      <label for="phone"></label>
+      Phone Number:<spam style="color: crimson;">*</spam>:<input type="number" id="phone" name="number" required>
+      <br>
+
+      <label for="age"></label>
+      Age:<spam style="color: crimson;">*</spam>:<input type="number" id="age" name="age" required>
+      <br>
+
+    
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" value="male" required> Male
+      <input type="radio" name="gender" value="female" required> Female
+      <br>
+      
+
+      <label for="experience">Programming Experience (years):</label>
+      <input type="number" id="experience" name="experience" required>
+      <br>
+
+      <label for="courseType">Preferred Course Type:</label>
+      <br>
+
+      <select id="courseType" name="courseType">
+        <br>
+
+        <option value="online">Online</option>
+        <br>
+
+        <option value="inPerson">In-Person</option>
+        <br>
+
+        <option value="both">Both</option>
+        <br>
+
+      </select>
+      
+      <input type="submit" value="Register">
+      <br>
+
+    </form>
+  </div>
+</body>
+</html>
